@@ -1,4 +1,3 @@
-
 class Game {
   static SIZE = 4;
 

@@ -40,6 +40,7 @@ function render() {
   loseMsg.classList.toggle('hidden', gameStatus !== 'lose');
 
   btn.textContent = gameStatus === 'idle' ? 'Start' : 'Restart';
+  btn.className = gameStatus === 'idle' ? 'button start' : 'button restart';
 }
 
 btn.addEventListener('click', () => {
